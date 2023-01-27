@@ -2,7 +2,7 @@ import streamlit as st
 
 import pickle
 import numpy as np
-model=pickle.load(open('/model.h5','rb'))
+model=pickle.load(open('model.h5','rb'))
 
 
 def predict_species(sep_len,sep_width,petal_len,petal_width):
