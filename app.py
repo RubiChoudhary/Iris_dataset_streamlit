@@ -1,8 +1,8 @@
 import streamlit as st
-from sklearn.model_selection import train_test_split
-from sklearn.datasets import load_iris
-import pandas as pd
-import warnings
+# from sklearn.model_selection import train_test_split
+# from sklearn.datasets import load_iris
+# import pandas as pd
+# import warnings
 import pickle
 import numpy as np
 model=pickle.load(open("model.h5",'rb'))
