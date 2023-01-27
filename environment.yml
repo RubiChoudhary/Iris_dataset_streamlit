@@ -1,0 +1,6 @@
+
+name: research
+channels:
+  - conda-forge
+dependencies:
+  - compas
